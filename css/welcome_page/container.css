@@ -1,0 +1,71 @@
+/** DIVS **/
+.container {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the alpha value as needed */
+}
+  /** USER OPTIONS DIV **/
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    /** BUTTONS **/
+    .button-custom-continue {
+      width: 300px;
+      display: inline-block;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      color: black;
+      text-decoration: none;
+      background-color: white;
+      border: 2px solid white;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .button {
+      width: 300px;
+      display: inline-block;
+      padding: 10px 20px;
+      margin-bottom: 20px;
+      color: #fff;
+      text-decoration: none;
+      background-color: #127dda;
+      border: 2px solid #127dda;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .button-custom-signup {
+      width: 300px;
+      display: inline-block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      background-color: #127dda;
+      border: 2px solid #127dda;
+      transition: background-color 0.3s, color 0.3s;
+    }
+  
+    .button-custom-continue:hover {
+      text-decoration: underline;
+    }
+    .button-custom-continue:active {
+      border: 2px solid #127dda;
+      color: #127dda;
+    }
+    .button:hover {
+      background-color: white;
+      border: 2px solid white;
+      color: black;
+    }
+    .button-custom-signup:hover {
+      background-color: white;
+      border: 2px solid white;
+      color: black;
+    }
+    /** BUTTONS **/
+  /** USER OPTIONS DIV **/
+/** DIVS **/
