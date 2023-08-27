@@ -2,7 +2,7 @@ body {
   font-family: 'Archivo', sans-serif;
   text-align: center;
 
-  background-image: url(/img/welcome_page_background.jpg); /* Replace with your image path */
+  background-image: url(/img/wallpapers/welcome_page_background.jpg); /* Replace with your image path */
   background-size: cover;
 
   margin: 0;
