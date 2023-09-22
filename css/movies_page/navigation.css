@@ -5,6 +5,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between; /* Distributes content horizontally */
+
+  position: absolute;
+  z-index: 2;
+  width: 100%;
 }
 
 .nav-list {
