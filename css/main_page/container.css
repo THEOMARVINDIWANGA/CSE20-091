@@ -118,19 +118,20 @@ div.content-section {
         height: 0;
       }
 
-  div.movie-card {
-    width: 200px;
+  div.card {
+    max-width: 200px;
 
     height: 450px;
     margin-left: 50px;
   }
-    div.movie-card img {
+    div.card img {
       max-height: 300px;
       min-height: 300px;
+      max-width: 200px;
 
       object-fit: cover;
-      overflow
     }
+
     p.label {
       border: solid;
       border-color: #e0e0e0;
@@ -141,6 +142,7 @@ div.content-section {
 
       font-size: 12px;
     }
+
 /** CONTENT CSS **/
 
 /*------------------------------------------------*/
